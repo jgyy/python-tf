@@ -12,7 +12,7 @@ conda activate tf1
 conda env update --name tf1 --file requirements.yaml
 ```
 
-copy the libraries if there is an error creating the environment
+copy the libraries if there is an error creating the environment (only happens in windows OS)
 
 ```sh
 cp /mnt/c/tools/miniconda3/Library/bin/libcrypto-1_1-x64.* /mnt/c/tools/miniconda3/DLLs

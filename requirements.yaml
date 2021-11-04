@@ -1,18 +1,67 @@
-name: tf1
-channels:
-  - defaults
+name: m1
 dependencies:
+  - apple::tensorflow-deps
+  - bleach
+  - certifi
+  - colorama
+  - cycler
+  - decorator
+  - entrypoints
+  - html5lib
+  - ipykernel
+  - ipython
+  - ipython_genutils
+  - ipywidgets
+  - jedi
+  - jinja2
+  - jsonschema
+  - jupyter
+  - jupyter_client
+  - jupyter_console
+  - jupyter_core
+  - markupsafe
   - matplotlib
+  - mistune
+  - nbconvert
+  - nbformat
+  - notebook
   - numpy
   - pandas
-  - python=3.6.10
-  - scikit-learn
-  - scikit-learn-intelex
-  - scipy
+  - pandocfilters
+  - path.py
+  - pickleshare
   - pip
-  - black
-  - pylint
+  - prompt_toolkit
+  - pygments
+  - pyparsing
+  - python
+  - python-dateutil
+  - pytz
+  - pyzmq
+  - qtconsole
+  - requests
+  - scikit-learn
+  - scipy
+  - setuptools
+  - simplegeneric
+  - sip
+  - six
+  - testpath
+  - tornado
+  - traitlets
+  - wcwidth
+  - wheel
+  - widgetsnbextension
   - pip:
-      - jupyter
-      - tensorflow==1.15.0
-      - tensorboard==1.15.0
+      - ipython-genutils
+      - jupyter-client
+      - jupyter-console
+      - jupyter-core
+      - markdown
+      - prompt-toolkit
+      - protobuf
+      - tensorflow
+      - tensorflow-macos
+      - tensorflow-metal
+      - tensorflow-tensorboard
+      - werkzeug
