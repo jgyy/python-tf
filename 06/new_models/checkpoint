@@ -1,2 +1,2 @@
-model_checkpoint_path: "my_second_model.ckpt"
-all_model_checkpoint_paths: "my_second_model.ckpt"
+model_checkpoint_path: "/Users/jgyy/Documents/repo/python-tfdl-jose/06/new_models/my_second_model.ckpt"
+all_model_checkpoint_paths: "/Users/jgyy/Documents/repo/python-tfdl-jose/06/new_models/my_second_model.ckpt"

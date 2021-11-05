@@ -1,10 +1,10 @@
 name: m1
 dependencies:
-  - apple::tensorflow-deps
+  - apple::tensorflow-deps==2.6.0
+  - black
   - bleach
   - certifi
   - colorama
-  - cycler
   - decorator
   - entrypoints
   - html5lib
@@ -14,7 +14,6 @@ dependencies:
   - ipywidgets
   - jedi
   - jinja2
-  - jsonschema
   - jupyter
   - jupyter_client
   - jupyter_console
@@ -23,8 +22,6 @@ dependencies:
   - matplotlib
   - mistune
   - nbconvert
-  - nbformat
-  - notebook
   - numpy
   - pandas
   - pandocfilters
@@ -33,12 +30,11 @@ dependencies:
   - pip
   - prompt_toolkit
   - pygments
+  - pylint
   - pyparsing
   - python
   - python-dateutil
-  - pytz
   - pyzmq
-  - qtconsole
   - requests
   - scikit-learn
   - scipy
@@ -51,7 +47,6 @@ dependencies:
   - traitlets
   - wcwidth
   - wheel
-  - widgetsnbextension
   - pip:
       - ipython-genutils
       - jupyter-client
@@ -60,8 +55,7 @@ dependencies:
       - markdown
       - prompt-toolkit
       - protobuf
-      - tensorflow
-      - tensorflow-macos
+      - tensorflow-estimator==2.6.0
+      - tensorflow-macos==2.6.0
       - tensorflow-metal
-      - tensorflow-tensorboard
       - werkzeug

@@ -2,6 +2,10 @@
 
 Learn how to use Google's Deep Learning Framework - TensorFlow with Python! Solve problems with cutting edge techniques!
 
+## Tensorflow notes
+
+This repo using tensorflow 2.6 and the methods used will be based of tf.compat.v1
+
 ## Conda commands
 
 As this repository uses tensorflow 1.15, a virtual environment is created.
